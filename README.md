@@ -15,17 +15,11 @@ Please organize the folder structure.
 Write a function and a main function, with a blank line between them.
 
 ```python
-# main.py
-
 def main():
     print('This is Main Function')
     
 if __name__ == '__main__':
     main()
-   
-# 실행 결과
-# $ python main.py
-# $ This is Main Function
 ```
 
 ## Commit message
@@ -33,7 +27,7 @@ if __name__ == '__main__':
 make a commit on the develop branch
 
 ```python
-feat: Solve [QuestionNumber]
+Feat: Solve [QuestionNumber]
 ```
 
 ## Pull Request
@@ -41,7 +35,7 @@ feat: Solve [QuestionNumber]
 - Title: Use the same text as the commit message
 
 ```python
-feat: Solve [QuestionNumber]
+Feat: Solve [QuestionNumber]
 ```
 
 - Description: Explain the code in English (see the example for reference)
